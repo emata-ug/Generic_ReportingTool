@@ -30,6 +30,8 @@ namespace API
         {
             services.AddControllers();
 
+            services.AddRouting(opts => opts.LowercaseUrls = true);
+
             services.AddDbContext<SalesDbContext>(opts => 
             {
                 opts.UseSqlite(Configuration.GetConnectionString("SalesDb"));

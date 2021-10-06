@@ -21,7 +21,7 @@ namespace API.Controllers
             _dbContext = dbContext;
         }
 
-        [HttpGet("list-sales")]
+        [HttpGet()]
         public ActionResult<List<Sale>> GetSales()
         {
             var sales = _dbContext.Sales.ToList();
@@ -29,7 +29,7 @@ namespace API.Controllers
             return StatusCode((int)HttpStatusCode.OK, sales);
         }
 
-        [HttpPost("upload-sales")]
+        [HttpPost("upload")]
         public ActionResult<List<Sale>> UploadSales(IFormFile fileUpload)
         {
             // upload file to temp location
@@ -46,8 +46,7 @@ namespace API.Controllers
 
             // sales entries to save to database
             var sales = new List<Sale>();
-
-            //spliting row after new line  
+  
             for (int i = 0; i < rows.Length; i++)
             {
                 if (i == 0) continue;
