@@ -13,7 +13,7 @@ Clone this repository to your machine and setup a local working copy.
 
 We recommend you use any version of `Visual Studio 2019 (The Community Edition is free!)` to restore nuget packages, build and run the solution. 
 
-The API project is the startup project.
+`The API project is the startup project.`
 
 You can also use `Visual Studio Code` or `Rider IDE`.
 
@@ -23,21 +23,21 @@ You can also use `Visual Studio Code` or `Rider IDE`.
 
 First, you will need to restore the packages:
 	
-	`dotnet restore`
+	dotnet restore
 	
 Second, you will build the solution:
 	
-	`dotnet build`
+	dotnet build
 
 Then run the solution:
 
 	Windows:
 	
-	`dotnet run --project .\API\API.csproj`
+	dotnet run --project .\API\API.csproj
 	
 	Linux:
 	
-	`dotnet run --project ./API/API.csproj`
+	dotnet run --project ./API/API.csproj
 	
 `The API docs are accessible at https://localhost:5001/swagger`
 	
