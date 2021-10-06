@@ -29,7 +29,15 @@ Second, you will build the solution:
 
 Then run the solution:
 	
+	Windows:
+	
 	dotnet run --project .\API\API.csproj
+	
+	Linux:
+	
+	dotnet run --project ./API/API.csproj
+	
+The API docs are accessible at https://localhost:5001/swagger
 	
 ## N.B
 
