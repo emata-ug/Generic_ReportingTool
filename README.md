@@ -31,6 +31,6 @@ Then run the solution:
 	
 	dotnet run
 	
-## N.B:
+## N.B
 
 Do not make any pull requests to this repository. Share your work on a fresh repository under your GitHub username.
