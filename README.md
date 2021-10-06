@@ -29,7 +29,7 @@ Second, you will build the solution:
 
 Then run the solution:
 	
-	dotnet run
+	dotnet run --project .\API\API.csproj
 	
 ## N.B
 
