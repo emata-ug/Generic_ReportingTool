@@ -43,4 +43,4 @@ Then run the solution:
 	
 ## N.B
 
-`Do not make any pull requests to this repository. Share your work on a fresh repository under your GitHub username.`
+`Do not make any pull requests to this repository or fork it. Follow the instructions given in the associated document.`
