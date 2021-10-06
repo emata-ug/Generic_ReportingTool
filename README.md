@@ -3,7 +3,7 @@
 Generic Reporting Tool
 ======================
 
-Generic Reporting Tool is a .NET 5 Web API that lets users upload sales entries to a SQLite database from a provided sales entries file(located in `Files` folder in the root directory of the solution). 
+Generic Reporting Tool is a `.NET 5 Web API` that lets users upload sales entries to a SQLite database from a provided sales entries file(located in `Files` folder in the root directory of the solution). 
 
 Users can also query the sales entries from the database.
 
@@ -30,8 +30,16 @@ Second, you will build the solution:
 	`dotnet build`
 
 Then run the solution:
+
+	Windows:
 	
-	`dotnet run`
+	`dotnet run --project .\API\API.csproj`
+	
+	Linux:
+	
+	`dotnet run --project ./API/API.csproj`
+	
+`The API docs are accessible at https://localhost:5001/swagger`
 	
 ## N.B
 
